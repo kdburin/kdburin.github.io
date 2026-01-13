@@ -69,10 +69,7 @@ author:
   name: "Kirill Burin"
   avatar: "/selfie.jpg"   # <-- replace with your real filename
   bio: >-
-    Results-driven data scientist who turns real-world business questions into
-    actionable insights. I use statistics, time series analysis, and
-    econometrics—along with Python (ML + analytics), SQL, and Excel/Google Sheets—
-    to identify what’s working, what to improve next, and where the business is headed.
+    I’m inspired by data and motivated by real-world problems—using statistics, forecasting, and machine learning to turn messy information into clear decisions.
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
