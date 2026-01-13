@@ -18,6 +18,3 @@ cleaning, summary statistics, visualization, and drawing conclusions from distri
 
 📄 [Read the report (PDF)](/assets/projects/data-visualisation-project.pdf)
 
-- **Data Visualization Practice** — EDA + visual storytelling using Iris and a second dataset  
-  → [Project page](/portfolio/data-visualization-practice/)  
-  → [PDF report](/assets/projects/data-visualisation-project.pdf)
