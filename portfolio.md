@@ -5,5 +5,6 @@ layout: single
 author_profile: false
 ---
 
-## Portfolio
-Add your projects here (each with a link + short summary).
+- **Data Visualization** — one sentence on what you did  
+  → [Read the PDF](/assets/projects/my_project.pdf)
+
