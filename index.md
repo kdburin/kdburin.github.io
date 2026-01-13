@@ -19,13 +19,19 @@ header:
 Inspired by data, driven by results — I turn real-world business questions into actionable insights using statistics,
 time series analysis, econometrics, and Python/SQL.
 
+## Quick links
+- [Portfolio](/portfolio/)
+- [About](/about/)
+- [Resume](/resume/)
+- [Blog Posts](/)
+
 ## Featured work
-- **Portfolio projects** (coming soon): forecasting, experimentation, and ML case studies.  
-  → Visit: **/portfolio/**
+- **Portfolio projects (coming soon):** forecasting, experimentation, and ML case studies.  
+  → [Go to Portfolio](/portfolio/)
 
 ## Certifications
 - **FreeCodeCamp — Data Analysis with Python**  
-  Certificate: https://www.freecodecamp.org/certification/kirill_burin/data-analysis-with-python-v7
+  → [View certificate](https://www.freecodecamp.org/certification/kirill_burin/data-analysis-with-python-v7)
 
 ## What I’m building next
 - Add 2–3 real projects with clean write-ups (problem → method → results → takeaway)
