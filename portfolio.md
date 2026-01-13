@@ -2,7 +2,7 @@
 title: "Portfolio"
 permalink: /portfolio/
 layout: single
-author_profile: true
+author_profile: false
 ---
 
 ## Portfolio
