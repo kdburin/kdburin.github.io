@@ -66,7 +66,7 @@ plugins:
 # ============================================================
 author:
   name: "Kirill Burin"
-  avatar: "/assets/images/avatar.jpg"   # <-- replace with your real filename
+  avatar: "/selfie.png"   # <-- replace with your real filename
   bio: >-
     Results-driven data scientist who turns real-world business questions into
     actionable insights. I use statistics, time series analysis, and
