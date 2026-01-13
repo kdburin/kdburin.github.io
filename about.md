@@ -1,8 +1,21 @@
 ---
-permalink: /about/
 title: "About"
+permalink: /about/
+layout: single
+author_profile: true
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+## Hi, I’m Kirill
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Results-driven data scientist who turns real-world business questions into actionable insights.
+I use statistics, time series analysis, and econometrics—along with Python (ML + analytics), SQL,
+and Excel/Google Sheets—to identify what’s working, what to improve next, and where the business is headed.
+
+### Skills
+- Python (pandas, scikit-learn), SQL
+- Statistics, time series, econometrics
+- Excel / Google Sheets
+
+### Links
+- GitHub: https://github.com/kdburin
+- LinkedIn: https://www.linkedin.com/in/kirill-burin-51602b2b8/
