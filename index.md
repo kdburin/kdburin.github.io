@@ -16,11 +16,10 @@ header:
 ---
 
 ## What I do
-Inspired by data, driven by results — I turn real-world business questions into actionable insights using statistics,
-time series analysis, econometrics, and Python/SQL.
+Inspired by data, driven by results — I use statistical analysis, Python, SQL, and Google Sheets to turn real-world business questions into clear insights and next steps.
 
 ## Featured work
-- **Portfolio projects:** Time Series, Linear Regression, Analysis of Varience.  
+- **Portfolio projects:** Collect → clean → transform → explore → model/forecast → validate → communicate insights.  
   → [Go to Portfolio](/portfolio/)
 
 ## Certifications
