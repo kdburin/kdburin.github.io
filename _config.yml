@@ -1,54 +1,56 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# ============================================================
+# BASIC SITE INFO (EDIT THESE FIRST)
+# ============================================================
+title: "Data Science"
+subtitle: "Portfolio + Notes"
+name: "Kirill Burin"
+email: "kirill.burin@comcast.net"
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Data science
-email: kirill.burin@comcast.net
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: kdburin
-minimal_mistakes_skin: default
+description: >-
+  Data science projects and write-ups focused on real-world decision-making:
+  forecasting, statistical modeling, and machine learning.
+
+# User site (kdburin.github.io) => baseurl MUST be empty
+url: "https://kdburin.github.io"
+baseurl: ""
+
+locale: "en-US"
+timezone: "America/Los_Angeles"
+
+twitter_username: ""          # optional
+github_username: "kdburin"
+
+# ============================================================
+# THEME (Minimal Mistakes)
+# ============================================================
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+minimal_mistakes_skin: "default"
 search: true
 
-# Build settings
+breadcrumbs: true
+read_time: true
+
+# ============================================================
+# BUILD SETTINGS
+# ============================================================
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-# Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+
+paginate: 5
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
 
-# Plugins (previously gems:)
+# ============================================================
+# PLUGINS (GitHub Pages supported)
+# ============================================================
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -57,38 +59,44 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# ============================================================
+# AUTHOR PROFILE (Sidebar)
+# Put your avatar image INSIDE your repo, e.g.:
+#   /assets/images/avatar.jpg
+# ============================================================
 author:
-  name   : "Kirill Burin"
-  avatar : "/Users/kirillburin/Desktop/selfie"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name: "Kirill Burin"
+  avatar: "/assets/images/avatar.jpg"   # <-- replace with your real filename
+  bio: >-
+    Results-driven data scientist who turns real-world business questions into
+    actionable insights. I use statistics, time series analysis, and
+    econometrics—along with Python (ML + analytics), SQL, and Excel/Google Sheets—
+    to identify what’s working, what to improve next, and where the business is headed.
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/kdburin"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/kirill-burin-51602b2b8/"
 
+# ============================================================
+# FOOTER LINKS
+# ============================================================
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/kdburin"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/kirill-burin-51602b2b8/"
 
+# ============================================================
+# DEFAULTS (layout behavior for posts/pages)
+# ============================================================
 defaults:
-  # _posts
+  # POSTS
   - scope:
       path: ""
       type: posts
@@ -96,20 +104,45 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: true        # <-- ON (you asked)
       share: true
       related: true
-  # _pages
+
+  # PAGES (_pages)
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
+      comments: true        # optional: keep comments on pages too
 
+# ============================================================
+# ARCHIVES (categories/tags pages)
+# ============================================================
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
+# IMPORTANT for giscus in Minimal Mistakes
+repository: "kdburin/kdburin.github.io"
+
+comments:
+  provider: "giscus"
+
+  giscus:
+    repo_id: "PASTE_REPO_ID_HERE"
+    category_name: "Announcements"          # or whatever category you choose
+    category_id: "PASTE_CATEGORY_ID_HERE"
+
+    discussion_term: "pathname"
+    reactions_enabled: "1"
+    theme: "light"
+    strict: 0
+    input_position: "bottom"
+    emit_metadata: 0
+    lang: "en"
+    lazy: true
