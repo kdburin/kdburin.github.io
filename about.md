@@ -5,13 +5,6 @@ layout: single
 author_profile: false
 ---
 
----
-title: "About"
-permalink: /about/
-layout: single
-author_profile: false
----
-
 ## Hi, I’m Kirill Burin
 
 I’m an undergraduate student at **UC Davis** studying **Statistical Data Science**, and I’m building a career in **data science / analytics**. I enjoy working on problems where data can clarify what’s happening, why it’s happening, and what to do next.
