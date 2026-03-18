@@ -15,6 +15,6 @@ cleaning, summary statistics, visualization, and drawing conclusions from distri
 - Computed summary statistics (mean, variance, etc.)
 - Built visualizations (histograms/boxplots/other plots) to compare distributions
 - Practiced basic statistical comparisons and interpretation
-
+📄 [Read the report (PDF)](/assets/Final_Project_STA141A.ipynb)
 📄 [Read the report (PDF)](/assets/data-visualisation-project.pdf)
 
